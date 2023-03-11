@@ -73,7 +73,7 @@ console.log(`Conversion: ${euros} euros son ${resultadoConversion} dolares`)
 
 // ejercicico 9 
 const precio = 100;
-const resultadoConIva = precio + precio * 0.21;
+const resultadoConIva = precio + (precio * 21 / 100);
 
 console.log(`El precio con IVA es: ${resultadoConIva}`);
 
